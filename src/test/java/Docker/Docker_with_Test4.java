@@ -26,9 +26,9 @@ public class Docker_with_Test4 {
 	
 	
 	  
-	  //URL url = new URL("http://localhost:4444/wd/hub");
+	  URL url = new URL("http://localhost:4444/wd/hub");
 	  
-	  URL url = new URL("http://3.110.131.214:4444");
+	//  URL url = new URL("http://3.110.131.214:4444");
 	  
 	  RemoteWebDriver driver = new RemoteWebDriver(url,dc);
 	  
